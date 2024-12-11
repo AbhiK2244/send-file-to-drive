@@ -10,7 +10,7 @@ const Upload = () => {
     const formData = new FormData(event.target);
 
     try {
-      const response = await fetch('http://localhost:5000/upload', {
+      const response = await fetch('https://send-file-to-drive-backend.vercel.app/upload', {
         method: 'POST',
         body: formData,
       });
