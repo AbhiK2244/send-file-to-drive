@@ -11,7 +11,7 @@ const app = express();
 
 // Middleware
 const corsOptions = {
-    origin: "",
+    origin: "https://send-file-to-drive-frontend.vercel.app",
     methods: ["POST", "GET", "DELETE", "PUT", "OPTIONS"],
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"]
